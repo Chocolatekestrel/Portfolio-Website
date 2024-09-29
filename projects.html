@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Kabir Patel | Projects</title>
+    <style>
+        /* Inline CSS for additional styles */
+        h1 {
+            color: #077b32; /* Green color for My Projects heading */
+            text-shadow: 0 0 10px #077b32; /* Adding glow effect */
+            font-size: 3rem; /* Font size for heading */
+            text-align: center; /* Center the heading */
+            margin-bottom: 20px; /* Space below heading */
+        }
+    </style>
+</head>
+<body style="width: 100%; height: auto; overflow-y: auto; background-color: black; color: white;">
+    <nav style="width: 100%; height: 10vh; position: sticky; top: 0; z-index: 1000; background-color: black;">
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500" style="color: white; font-size: 2rem; font-weight: bold;">
+                Kabir <span style="color: #077b32; text-shadow: 0 0 10px #077b32;">Patel</span>
+            </div>
+            <div class="hamburg" onclick="hamburg()" style="cursor: pointer; color: white; display: none; font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);">&#9776;</div>
+            <div class="cancel" onclick="cancel()" style="cursor: pointer; color: white; display: none;">&#10005;</div>
+            <div class="links" style="display: flex;">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <section style="width: 100%; padding: 20px;">
+        <div class="main-container" style="width: 100%; display: flex; flex-direction: column; align-items: center; min-height: 100vh;">
+            <div class="content" style="width: 90%; margin: 0 auto;">
+                <h1 data-aos="fade-up" data-aos-duration="1500">My Projects</h1>
+                
+                <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" style="width: 100%; margin: 20px 0; background: rgba(7, 123, 50, 0.2); padding: 15px; border-radius: 8px;">
+                    <h2>Restaurant Chatbot</h2>
+                    <p>Developed a chatbot for a restaurant to facilitate food orders using NLP and Google Dialogflow. The chatbot integrates seamlessly with the restaurant's existing system, allowing customers to place orders easily via chat.</p>
+                    <p><strong>Technologies Used:</strong> React.js, FastAPI, Google Dialogflow, MySQL</p>
+                </div>
+
+                <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" style="width: 100%; margin: 20px 0; background: rgba(7, 123, 50, 0.2); padding: 15px; border-radius: 8px;">
+                    <h2>Desktop Assistant</h2>
+                    <p>Created a desktop assistant using Python to perform tasks through voice recognition. The assistant can play music, open applications, and perform web searches, enhancing user productivity.</p>
+                    <p><strong>Technologies Used:</strong> Python, Pyttsx3, Speech Recognition</p>
+                </div>
+
+                <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" style="width: 100%; margin: 20px 0; background: rgba(7, 123, 50, 0.2); padding: 15px; border-radius: 8px;">
+                    <h2>Portfolio Website</h2>
+                    <p>Designed and developed a portfolio website showcasing my skills in web development and machine learning. The site features a clean, modern design and is fully responsive, ensuring an optimal viewing experience on all devices.</p>
+                    <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, AOS (Animate On Scroll)</p>
+                </div>
+
+                <div class="project" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" style="width: 100%; margin: 20px 0; background: rgba(7, 123, 50, 0.2); padding: 15px; border-radius: 8px;">
+                    <h2>Dynamic Routing with RIP</h2>
+                    <p>Configured dynamic routing using RIP with four routers in Cisco Packet Tracer, allowing for efficient data communication and network management.</p>
+                    <p><strong>Technologies Used:</strong> Cisco Packet Tracer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
