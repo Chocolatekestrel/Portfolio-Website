@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Kabir Patel | About</title>
+    <style>
+        /* Additional inline CSS for centering content */
+        .box {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center the items */
+            justify-content: center; /* Center the content vertically */
+            text-align: center; /* Center the text */
+            padding: 15px; /* Padding for aesthetics */
+            width: 90%; /* Adjust width for better alignment */
+            margin: 20px auto; /* Center the box with margins */
+            background-color: rgba(7, 123, 50, 0.1); /* Light green background */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+        }
+
+        ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
+        }
+
+        h1 {
+            color: #077b32; /* Green color for About Me heading */
+            text-shadow: 0 0 10px #077b32; /* Adding glow effect */
+            font-size: 5rem; /* Increased size for emphasis */
+            margin-bottom: 20px; /* Space below About Me heading */
+        }
+
+        h2 {
+            color: white; /* White color for other headings */
+            margin-bottom: 10px; /* Space below each subheading */
+            font-size: 1.5rem; /* Default size for subheadings */
+        }
+
+        p {
+            margin-bottom: 10px; /* Space below paragraphs */
+            font-size: 1rem; /* Default paragraph size */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Kabir <span style="color: #077b32; text-shadow: 0 0 10px #077b32;">Patel</span>
+            </div>
+            <div class="hamburg" onclick="hamburg()">&#9776;</div>
+            <div class="links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section style="width: 100%; padding: 20px;">
+        <div class="main-container" style="width: 100%; display: flex; flex-direction: column; align-items: center; min-height: 100vh;">
+            <div class="content" style="width: 90%; margin: 0 auto;">
+                <h1 data-aos="fade-up" data-aos-duration="1500" style="text-align: center;">About Me</h1>
+                
+                <div class="box" data-aos="fade-up" data-aos-duration="1500">
+                    <p>
+                        I’m Kabir Patel, a passionate web developer with a strong foundation in both web development and machine learning. My journey in technology began at an early age, fostering a love for creating innovative solutions that can make a positive impact on society.
+                    </p>
+                    <p>
+                        I have honed my skills in various programming languages, including C++ and Python, alongside frameworks like React.js and Flutter. My keen interest in machine learning motivates me to continually expand my knowledge, exploring cutting-edge technologies and methodologies that drive progress.
+
+I thrive on challenges and believe in the power of technology to transform ideas into reality. I invite you to explore my projects, which showcase my expertise and dedication to delivering high-quality solutions.
+
+
+                    </p>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                    <h2 style="text-align: center;">LANGUAGES</h2>
+                    <ul>
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Punjabi</li>
+                    </ul>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <h2 style="text-align: center;">EXPERTISE</h2>
+                    <ul>
+                        <li>C++ DSA</li>
+                        <li>Flutter</li>
+                        <li>Python</li>
+                        <li>Machine Learning</li>
+                        <li>React.js</li>
+                        <li>Next.js</li>
+                    </ul>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                    <h2 style="text-align: center;">HIGH SCHOOL EDUCATION AND ACHIEVEMENTS</h2>
+                    <ul>
+                        <li>Completed my high school education from ABPS</li>
+                        <li>Passed class 10 with 92.2% and class 12 with 90%</li>
+                        <li>District level Football Player</li>
+                        <li>Was opted as Head Boy of the School</li>
+                    </ul>
+                </div>
+
+                <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <h2 style="text-align: center;">GRADUATION</h2>
+                    <ul>
+                        <li>Currently pursuing my Bachelor in Engineering with Specialization in Artificial Intelligence and Machine Learning from Chandigarh University, Gharuan, Punjab</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+</body>
+</html>
